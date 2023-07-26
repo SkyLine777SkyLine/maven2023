@@ -24,8 +24,6 @@ public class ReadFromExcel {
 			ExcelReader excelReader = new ExcelReader("src\\main\\java\\testdata\\CustomersTable.xlsx", "Sheet1");
 			return excelReader.getTableData("Table1");
 		}
-		
-		
 	}
 
 

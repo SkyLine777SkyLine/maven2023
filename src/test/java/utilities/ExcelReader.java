@@ -75,11 +75,11 @@ public class ExcelReader {
 		return tableData;
 	}	
 	
-	public static void main(String[] args) {
-		ExcelReader excelReader = new ExcelReader("src\\main\\java\\testdata\\CustomersTable.xlsx", "Sheet1");
-		Object[][] data = excelReader.getTableData("Table1");
-		System.out.println(data[12][3]);
-	}
+//	public static void main(String[] args) {
+//		ExcelReader excelReader = new ExcelReader("src\\main\\java\\testdata\\CustomersTable.xlsx", "Sheet1");
+//		Object[][] data = excelReader.getTableData("Table1");
+//		System.out.println(data[12][3]);
+//	}
 
 }
 
